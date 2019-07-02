@@ -16,10 +16,10 @@ export default {
     ],
     link: [{
       rel: 'stylesheet',
-      href: 'https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css'
+      href: 'https://unpkg.com/leaflet@1.5.1/dist/leaflet.css'
     }],
     script: [
-     { src: 'https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js' }, 
+      { src: "https://unpkg.com/leaflet@1.5.1/dist/leaflet.js", type: "text/javascript" },
     ],
   },
   css: [
@@ -32,7 +32,7 @@ export default {
   },
 
   plugins: [
-    '~/plugins/element-ui',
+    '~/plugins/element-ui'
   ],
   modules: [
   ]
